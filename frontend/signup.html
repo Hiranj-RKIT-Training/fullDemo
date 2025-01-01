@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <!-- sign up Form -->
+    <form id="signup">
+        <h3 class="fomrTitle">Signup</h3>
+        <input type="text" name="firstName" id="usrFirstName" placeholder="First Name">
+        <input type="text" name="lastName" id="usrLastName" placeholder="Last Name">
+        <input type="email" name="email" id="usrEmail" placeholder="Email">
+
+        <input type="password" name="password" id="usrPassword" , placeholder="Password">
+        <input type="password" name="cnfrmPassword" id="cnfrmPassword" placeholder="Confrim Password">
+        <input type="submit" name="Signup" id="submit">
+        <div id="orLines">
+            <div class="line"></div>
+            <span id="orText">
+                OR
+            </span>
+
+            <div class="line"></div>
+        </div>
+        <p>
+            Already have an account? <a href="./login.html" id="signupLink">Login</a>
+        </p>
+    </form>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+<script src="./loginSignup.js"></script>
+
+</html>

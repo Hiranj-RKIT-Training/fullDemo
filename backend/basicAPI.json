@@ -1,0 +1,456 @@
+{
+    "id": "API",
+    "title": "Basic API",
+    "description": "Basic API Development - Foundations of Modern Web Services provides a structured introduction to API creation and web service essentials. The curriculum covers the fundamentals of C# programming, database management, and core web API principles. Starting with C# basics, learners build proficiency in coding standards, syntax, and object-oriented programming, moving through essential concepts like file handling, collections, and exception handling. The course then introduces database management, covering SQL fundamentals, data manipulation, indexing, and backup/restore processes. Finally, learners dive into web API development, exploring HTTP response codes, security (JWT, CORS), and API documentation using tools like Swagger and Postman. Through hands-on demos and real-world applications, this guide equips learners with foundational skills for creating efficient, secure, and scalable APIs.",
+    "topics": [
+        {
+            "title": "Introduction",
+            "children": [
+                {
+                    "title": "Introduction with Trainer",
+                    "Content": [
+                        {
+                            "topic": "Introduction with Trainer, Share/Explain Training planning schedule & Practice & Documentation",
+                            "link": "",
+                            "status": true,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Visual Studio 2022 Overview",
+                            "link": "",
+                            "status": true,
+                            "revision": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Coding Standards",
+            "children": [
+                {
+                    "title": "Programming Guideline & Commenting",
+                    "Content": [
+                        {
+                            "topic": "Programming Guidelines and Best Practices",
+                            "link": "",
+                            "status": true,
+                            "revision": true
+                        },
+                        {
+                            "topic": "Commenting Standards",
+                            "link": "",
+                            "status": true,
+                            "revision": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Basics of C#",
+            "children": [
+                {
+                    "title": "Introduction to C#",
+                    "Content": [
+                        {
+                            "topic": "Introduction to C#",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Create first C# program \u00e2\u20ac\u02dcHello World\u00e2\u20ac\u2122",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Understanding C# Program Structure",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Core Concepts",
+                    "Content": [
+                        {
+                            "topic": "Working with Code files, Projects & Solutions",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Data Types & Variables with Conversion",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Operators & Expressions",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Statements",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Understanding Arrays",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Defining & Calling Methods",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Understanding Classes & OOP Concepts",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Interface & Inheritance",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Scope & Accessibility Modifiers",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Namespace & .Net Library",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Creating & Adding Reference to Assemblies",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Working with Collections",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Enumerations",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Data Table",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Exception Handling",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Different Project Types",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Working with String Class",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Working with DateTime Class",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Basic File Operations",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Web Development Introduction",
+                    "Content": [
+                        {
+                            "topic": "Introduction to Web Development",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Web API Project",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Building Web API",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Test 1",
+            "children": [
+                {
+                    "title": "Test/Demo of Basic C# Training",
+                    "Content": [
+                        {
+                            "topic": "Prepare Demo for Basic C# Concepts",
+                            "link": "",
+                            "status": true,
+                            "revision": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Database Guideline",
+            "children": [
+                {
+                    "title": "Overview",
+                    "Content": [
+                        {
+                            "topic": "Guidelines for Working with Databases",
+                            "link": "",
+                            "status": true,
+                            "revision": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Basics of Database Management System",
+            "children": [
+                {
+                    "title": "Database Overview",
+                    "Content": [
+                        {
+                            "topic": "Overview of DBMS",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "MySQL",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Overview of Workbench",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Database Design",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        }
+                    ]
+                },
+                {
+                    "title": "SQL Basics",
+                    "Content": [
+                        {
+                            "topic": "SQL Basics",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Data Sorting",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Null Value & Keyword",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Auto Increment",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "DDL, DML, DCL, TCL, DQL",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Limit",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Aggregate Functions",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Sub-Queries",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Joins",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Unions",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Index",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "View",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Backup & Restore, Explain Keyword",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Test 2",
+            "children": [
+                {
+                    "title": "Test/Demo of Basic Database Training",
+                    "Content": [
+                        {
+                            "topic": "Prepare Demo for Basic Database Concepts",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Web Development",
+            "children": [
+                {
+                    "title": "Web Development Overview",
+                    "Content": [
+                        {
+                            "topic": "Introduction to Web Development",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Web API Project",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Building Web API",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Action Method Response (HTTP Status Code, etc.)",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Security (CORS, Authentication, Authorization, Exception, JWT Token, etc.)",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "HTTP Caching",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Versioning",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Use of Swagger",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Use of POSTMAN",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        },
+                        {
+                            "topic": "Deployment",
+                            "link": "",
+                            "status": false,
+                            "revision": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

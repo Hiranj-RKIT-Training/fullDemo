@@ -1,0 +1,306 @@
+[
+    {
+        "title": "HTML",
+        "children": [
+            {
+                "title": "Basic of HTML",
+                "Content": [
+                    {
+                        "topic": "What is HTML, use of HTML, about different web browsers",
+                        "link": "",
+                        "status": true,
+                        "revision": false
+                    },
+                    {
+                        "topic": "HTML Version",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "Structure of HTML",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    }
+                ]
+            },
+            {
+                "title": "Basic Controls",
+                "Content": [
+                    {
+                        "topic": "form (method type, action...)",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "input",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "text area",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "select box",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "checkbox",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "radio button",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "button",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "submit input",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "File Control with its attributes",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    }
+                ]
+            },
+            {
+                "title": "Control's Attributes",
+                "Content": [
+                    {
+                        "topic": "name",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "id",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "value",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "class",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    }
+                ]
+            },
+            {
+                "title": "Basic Tag with its attributes",
+                "Content": [
+                    {
+                        "topic": "img tag, a tag",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "What is meta tag, use of meta tag",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "What is a responsive website, how can users do it?",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    }
+                ]
+            },
+            {
+                "title": "Test",
+                "Content": [
+                    {
+                        "topic": "Prepare Demo of Above Topics",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "CSS",
+        "children": [
+            {
+                "title": "Basic of CSS",
+                "Content": [
+                    {
+                        "topic": "CSS introduction",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "External style sheet",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "Internal style sheet",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "Inline style",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "CSS Syntax",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "CSS Selector",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "CSS basic property",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "Example",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    }
+                ]
+            },
+            {
+                "title": "Test",
+                "Content": [
+                    {
+                        "topic": "Prepare Demo of Above Topics",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bootstrap",
+        "children": [
+            {
+                "title": "Basics of Bootstrap",
+                "Content": [
+                    {
+                        "topic": "Introduction of Bootstrap",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "Use of Bootstrap",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "Structure of Bootstrap",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "JavaScript",
+        "children": [
+            {
+                "title": "Basics of JavaScript",
+                "Content": [
+                    {
+                        "topic": "JavaScript Introduction",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "Use of JavaScript",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "Ways to include JavaScript",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "Syntax of JavaScript",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "Basic events of JavaScript",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    },
+                    {
+                        "topic": "Basic Validation with JavaScript",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    }
+                ]
+            },
+            {
+                "title": "Test",
+                "Content": [
+                    {
+                        "topic": "Prepare Demo of Above Topics",
+                        "link": "",
+                        "status": false,
+                        "revision": false
+                    }
+                ]
+            }
+        ]
+    }
+]

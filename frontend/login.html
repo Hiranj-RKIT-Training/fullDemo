@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <!-- login form -->
+    <form id="loginForm">
+        <h3 class="fomrTitle">Log In</h3>
+        <input type="email" name="email" id="usrEmail" placeholder="Email Address*">
+        <input type="password" name="password" id="usrPassword" placeholder="password*">
+        <a href="#" id="forgotPass"> Forgot password?</a>
+        <button id="submit">Log In</button>
+        <p id="tnc">By logging in, you agree to the <span class="bld">Terms of Service</span> and <span
+                class="bld">Privacy
+                Policy</span></p>
+        <div id="orLines">
+            <div class="line"></div>
+            <span id="orText">
+                OR
+            </span>
+
+            <div class="line"></div>
+        </div>
+        <!-- sign up link -->
+        <p>
+            Need an account? <a href="./signup.html" id="signupLink">Sign Up</a>
+        </p>
+        </from>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+<script type="module" src="./loginSignup.js"></script>
+
+</html>

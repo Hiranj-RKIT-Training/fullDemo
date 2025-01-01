@@ -1,0 +1,306 @@
+/* removing by default mrgin and padding  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+}
+
+/* sideBar */
+#sidebar {
+    color: white;
+    display: flex;
+    background-color: black !important;
+    justify-content: center;
+    align-items: start;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    z-index: 10001;
+}
+
+.sidebarContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sheets {
+    padding-top: 0.625em;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn-dark {
+    margin-bottom: 0.5em;
+    background-color: black;
+    border: none;
+
+
+}
+
+.sheetHeading {
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+/* to toogle sideBar  */
+.showSidebar {
+    display: block !important;
+    /* z-index: 10001; */
+
+}
+
+.logo {
+    margin: 1.5em;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 150px;
+}
+
+/* navBar */
+header {
+
+    background-color: white;
+    display: flex;
+    height: 75px;
+    padding: 10px;
+    /* border-bottom: 1px !important; */
+    position: sticky;
+    border-bottom: 1px solid #ccc;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    width: 100%;
+    display: block;
+    position: sticky
+}
+
+#navBar {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+/* main content Container  */
+.mainBody {
+    margin-left: 15%;
+    width: 85%;
+    height: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+/* login button  */
+#btnLogin {
+    padding: .625em 1em .625em 1em;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9241c;
+    border: 0px;
+}
+
+/* heading title  */
+.titleDescription {
+    font-size: 16;
+    font-weight: 400;
+}
+
+
+/* rivision checkbox */
+.star {
+    visibility: hidden;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.star:before {
+    content: "\2606";
+    position: relative;
+    visibility: visible;
+}
+
+.star:checked:before {
+    content: "\2605";
+    position: relative;
+}
+
+/* progess bar container */
+.showProgress {
+    margin-left: 15px;
+    padding: 20px;
+    width: 33%;
+
+    border-radius: 10px;
+    flex-wrap: wrap;
+    background-color: #fff;
+
+    /* display: flex; */
+    box-shadow: #32326926 0px 3px 5px 0px, #0000000d 0px 2px 1px 0px;
+
+}
+
+.progress-bar {
+
+    background-color: #d9241c;
+}
+
+.progressText {
+    display: flex;
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.progressContainer {
+    color: #d9241c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progressCount {
+    margin-left: 5px;
+    color: black;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+/* Show Rivision button  */
+.rivisionButton {
+    background-color: #d9241c;
+    border: 1px solid #d9241c;
+    height: 3em;
+}
+
+.rivisionButton:hover {
+    background-color: #d9241c;
+    border: 1px solid #d9241c;
+    height: 3em;
+}
+
+
+
+/* main accordian styles  */
+.accordion-item {
+    padding-top: 5px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.accordion-button {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    border-radius: 10px;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #212529;
+    background-color: #f8f9fa;
+    box-shadow: none;
+}
+
+/* table Styles */
+.content-table {
+    width: 100%;
+    border: 1px solid black;
+
+    border-radius: 10px;
+    border-collapse: unset;
+    overflow: hidden;
+}
+
+.tableCheckbox {
+    background-color: black !important;
+}
+
+td,
+th {
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid rgba(80, 80, 80, .5);
+
+}
+
+table {
+    border-radius: 10px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, .125);
+}
+
+.accordion-button::after {
+    margin-left: 0;
+    order: 3;
+}
+
+.badge-container {
+    margin-left: auto;
+    margin-right: 8px;
+    order: 2;
+}
+
+.title-text {
+    order: 1;
+}
+
+#content {
+    padding: 20px;
+    font-weight: bolder;
+}
+
+@media (max-width: 992px) {
+    .mainBody {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    #navBar {
+        justify-content: space-between;
+    }
+
+    /* 
+    #menu {
+        @include visually-hidden-focusable;
+    } */
+
+    #sidebar {
+        /* display: flex !important; */
+        width: 30%;
+        justify-content: center;
+    }
+
+    .showProgress {
+        width: 66%;
+    }
+
+}
+
+@media (max-width: 593px) {
+    #sidebar {
+        /* display: flex !important; */
+        width: 50%;
+        justify-content: center;
+    }
+}
